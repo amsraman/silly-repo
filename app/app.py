@@ -3,11 +3,11 @@ from app.components.counter import counter_card
 
 
 def index() -> rx.Component:
-    """The main entry point for the counter application with a red theme."""
+    """The main entry point for the counter application."""
     return rx.el.main(
         rx.el.div(
             counter_card(),
-            class_name="w-full min-h-screen bg-red-50/50 overflow-hidden font-['Inter']",
+            class_name="w-full min-h-screen bg-slate-50 overflow-hidden font-['Inter']",
         )
     )
 

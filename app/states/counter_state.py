@@ -23,10 +23,10 @@ class CounterState(rx.State):
 
     @rx.var
     def count_color(self) -> str:
-        """Dynamically change the text color based on the count value with red accents."""
+        """Dynamically change the text color based on the count value."""
         if self.count > 0:
-            return "text-red-600"
+            return "text-emerald-500"
         elif self.count < 0:
-            return "text-red-400"
+            return "text-rose-500"
         else:
-            return "text-red-900"
+            return "text-gray-700"
