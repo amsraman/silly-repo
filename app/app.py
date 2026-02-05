@@ -27,5 +27,5 @@ app.add_page(
     index,
     route="/",
     title="Reflex Counter | Clean UI",
-    description="A beautifully designed counter application built with Reflex.",
+    description="A horribly designed counter application built with Reflex.",
 )
