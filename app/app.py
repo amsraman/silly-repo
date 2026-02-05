@@ -26,6 +26,6 @@ app = rx.App(
 app.add_page(
     index,
     route="/",
-    title="Reflex Counter | Clean UI",
+    title="Reflex Retnuoc | Clean UI",
     description="A horribly designed counter application built with Reflex.",
 )
