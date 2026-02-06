@@ -7,7 +7,7 @@ def index() -> rx.Component:
     return rx.el.main(
         rx.el.div(
             counter_card(),
-            class_name="w-full min-h-screen bg-slate-50 overflow-hidden font-['Inter']",
+            class_name="w-full min-h-screen bg-red-50 overflow-hidden font-['Inter']",
         )
     )
 
